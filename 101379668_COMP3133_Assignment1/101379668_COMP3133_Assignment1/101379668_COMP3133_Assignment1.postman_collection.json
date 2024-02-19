@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "f5b65d90-cd82-4207-8fa7-15cb378ae710",
+		"name": "101379668_COMP3133_Assignment1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29539561",
+		"_collection_link": "https://orange-robot-840269.postman.co/workspace/COMP3095-week2-tuesday~7434d8a7-e9e2-4955-94f3-2ac224ef7076/collection/29539561-f5b65d90-cd82-4207-8fa7-15cb378ae710?action=share&source=collection_link&creator=29539561"
+	},
+	"item": [
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "getAllEmployees",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"query\": \"{ getAllEmployees { _id first_name last_name email gender salary } }\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEmployeeById",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"query\": \"{ getAllEmployees { _id first_name last_name email gender salary } }\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mutations",
+			"item": [
+				{
+					"name": "addEmployee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteEmployee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"query\": \"{ getAllEmployees { _id first_name last_name email gender salary } }\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateEmployee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
